@@ -1,0 +1,1 @@
+Sample app that shows how to send template emails from the server with mailgun. 
