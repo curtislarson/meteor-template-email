@@ -1,0 +1,6 @@
+{
+  "mailgun_apikey": "...",
+  "mailgun_hostname": "smtp.mailgun.org",
+  "mailgun_login": "...",
+  "mailgun_password": "..."
+}
