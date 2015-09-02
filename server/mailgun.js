@@ -8,10 +8,11 @@ Meteor.methods({
                              subject,
                              body,
                              callback) {
+    var toListString = toEmails.join(",");
     mg.sendRaw(fromName + " <" + fromEmail + ">",
                toEmails,
                "From: " + fromEmail +
-                "\nTo: " + to +
+                "\nTo: " + toListString +
                 "\nContent-Type: text/html; charset=utf-8" +
                 "\nSubject: " + subject +
                 "\n\n" + body,
